@@ -9,7 +9,7 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100">
       
       {/* HERO */}
-      
+
       <section className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -51,18 +51,22 @@ export default function App() {
       </section>
 
       {/* PROJECTS */}
+
       <section className="max-w-6xl mx-auto px-6 py-20">
         <h2 className="text-3xl font-semibold mb-12">Selected Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectCard
-            title="Multilingual Flashcard App"
-            description="German–English vocabulary trainer with categories and timed quizzes."
+            title="Movie App"
+            description="Users can search for their favourite movies."
             tech="React, JavaScript"
+            repoLink="https://github.com/CodeKunle/movieNet"
+            liveLink="https://CodeKunle.github.io/movieNet/"
           />
           <ProjectCard
-            title="Ethereum Smart Contracts"
-            description="Smart contracts written and tested using Solidity and Remix."
-            tech="Solidity, Ethereum"
+            title="RandomPicSit"
+            description="Randomly generate pictures for the users"
+            tech="HTML, JavaScript, CSS"
+            repoLink="https://github.com/CodeKunle/randomPicsSite"
           />
         </div>
       </section>
@@ -76,6 +80,7 @@ export default function App() {
 
 
       {/* FOOTER */}
+
       <footer className="border-t border-slate-800 mt-24">
         <div className="max-w-6xl mx-auto px-6 py-12 flex justify-between items-center">
           <p className="text-slate-400">© {new Date().getFullYear()} Salisu Waheed</p>
