@@ -9,6 +9,7 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100">
       
       {/* HERO */}
+      
       <section className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,6 +40,7 @@ export default function App() {
       </section>
 
       {/* SKILLS */}
+
       <section className="max-w-6xl mx-auto px-6 py-20">
         <h2 className="text-3xl font-semibold mb-12">Skills & Stack</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
