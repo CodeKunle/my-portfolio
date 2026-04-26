@@ -45,7 +45,7 @@ export default function App() {
         <h2 className="text-3xl font-semibold mb-12">Skills & Stack</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           <SkillCard icon={<Code />} title="Frontend" items={["JavaScript", "React", "CSS", "Tailwind"]} />
-          <SkillCard icon={<Database />} title="Data & Backend" items={["SQL", "Python", "Excel"]} />
+          <SkillCard icon={<Database />} title="Data & Backend" items={["SQL", "Python", "Nodejs", "Express", "Neon Database", "Excel"]} />
           <SkillCard icon={<Globe />} title="Blockchain" items={["Solidity", "Ethereum", "Remix"]} />
         </div>
       </section>
